@@ -17,9 +17,11 @@ function Data() {
     >
       {/* Content container */}
       <div style={{ width: '100%', maxWidth: '600px' }}>
-        <h1 className="fw-bold mb-4 text-dark text-center">
+        <h1 className="fw-bold mb-3 text-dark text-center">
           Student's Data
         </h1>
+          <pre className="my-0 text-center fw-bold" >*The backend is hosted on a free instance, and may</pre>
+          <pre className="my-0 mb-4 text-center fw-bold">take ~1 minute to wake up on the first request.</pre>
 
         {/* Buttons */}
         <div className="d-flex flex-column" style={{ gap: '30px' }}>

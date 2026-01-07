@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 function Home(){
     return(
 
@@ -13,22 +13,40 @@ function Home(){
         <h1 className="fw-bold text-center mt-3" style={{ fontSize: '3rem' }}>
           Student <br /> Management <br /> System
         </h1>
+        
+        <button className="btn btn-primary btn-lg mt-3 rounded-pill"><Link className="nav-link" to="/data">Access database</Link></button>
+        
       </div>
 
 {/* RIGHT SECTION */}
 <div
-  className="d-flex align-items-center justify-content-center"
+  className="d-flex flex-column align-items-center justify-content-center"
   style={{
     width: "68%",
     backgroundColor: "#2e364dff",
     padding: "20px",
   }}
 >
+  {/* Header Section */}
+  <div className="mb-3"
+    style={{
+      width: "100%", 
+      maxWidth: "730px", 
+      color: "white", 
+      fontSize: "20px", 
+      fontWeight: "500",
+    }}
+  >
+    Implementation Details
+  </div>
+
+  {/* Code Block Section */}
   <pre
     style={{
       backgroundColor: "#181b24ff",
       color: "#e5e7eb",
       padding: "20px",
+      border:"2px,solid,black",
       borderRadius: "8px",
       width: "100%",
       maxWidth: "730px",
@@ -44,13 +62,14 @@ function Home(){
 };
 
 const projectDetails = {
+
   title: "Student Management System",
   overview: "A full-stack web application for managing student records efficiently.",
   architecture: {
-      client: "React-based responsive frontend",
-      apiLayer: "Spring Boot REST APIs",
-      dataAccess: "JDBC (DriverManager, PreparedStatement)",
-      persistence: "MySQL relational database"
+    hosting: "Multi-Cloud (Netlify + Render)", 
+    database: "Railway MySQL", 
+    connectivity: "RESTful JDBC", 
+    optimization: "Cron-job Keep-Alive"
   },
   features: [
       "Add new student records",
@@ -58,9 +77,7 @@ const projectDetails = {
       "Search and view individual student details",
       "Update existing student information",
       "Delete student records",
-      "Fully responsive user interface"
-  ]
-`}
+]};`}
   </pre>
 </div>
 
