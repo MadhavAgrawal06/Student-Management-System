@@ -45,7 +45,7 @@ function Delete() {
 
       // Call DELETE API
       const deleteRes = await fetch(
-        `https://student-management-system-backend-jssl.onrender.com/${rollno}`,
+        `https://student-management-system-backend-jssl.onrender.com/students/${rollno}`,
         { method: "DELETE" }
       );
 

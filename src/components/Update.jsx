@@ -28,7 +28,7 @@ function Update() {
 
       // Update marks
       const updateRes = await fetch(
-        `https://student-management-system-backend-jssl.onrender.com/${student.rollno}`,
+        `https://student-management-system-backend-jssl.onrender.com/students/${student.rollno}`,
         {
           method: "PUT",
           headers: { "Content-Type": "application/json" },
