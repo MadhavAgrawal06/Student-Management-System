@@ -17,7 +17,7 @@ export default function ShowAll() {
       });
   }, []);
 
-  if (loading) return <p>Loading students...</p>;
+  if (loading) return <p className="text-center my-5">Loading students...</p>;
 
   return (
     <div className="container">
