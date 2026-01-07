@@ -10,6 +10,7 @@ This application works as the **frontend (client-side)** of a decoupled full-sta
 
 - **Live Demo:** https://fullstack-studentdb-madhav.netlify.app  
 - **Backend API:** https://student-management-system-backend-jssl.onrender.com/students  
+  *Note: The backend is hosted on a free instance, and may take ~1 minute to wake up on the first request.* 
 
 ---
 
