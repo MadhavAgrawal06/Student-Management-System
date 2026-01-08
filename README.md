@@ -6,6 +6,11 @@ This application works as the **frontend (client-side)** of a decoupled full-sta
 
 ---
 
+🔗 **Backend Repository:**  
+👉 [Student Management System – Backend](https://github.com/MadhavAgrawal06/Student-Management-System-Backend)
+
+---
+
 ## 🚀 Live Links
 
 - **Live Demo:** https://fullstack-studentdb-madhav.netlify.app  
@@ -38,6 +43,7 @@ This application works as the **frontend (client-side)** of a decoupled full-sta
 - **Delete:** Remove students from cloud-hosted MySQL database  
 
 ### 🔒 Technical Integration
+- RESTful API integration with Spring Boot backend.
 - CORS-enabled communication with backend  
 - Basic form validation and error handling  
 - State management using React Hooks (`useState`, `useEffect`)  
